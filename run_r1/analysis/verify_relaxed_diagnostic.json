@@ -1,0 +1,486 @@
+{
+  "schema_version": "dcs245-independent-verification-v1",
+  "synthetic_fixture": false,
+  "validation_passed": false,
+  "record_and_full_vector_validation_passed": true,
+  "timing_validation_passed": false,
+  "sample_count": 1389,
+  "audit_count": 64,
+  "manifest_sha256": "6bc4363d6d59fac5deed062b54664b7c6faf843b081692a701ce0394f60f2eb3",
+  "protocol_sha256": "5c4e3b14185b64eb9918a923805064ca0ddc1b80ef5e7e7be787c273f8c91b0e",
+  "executed_verifier_sha256": "29463703e176458eecdd4b0688203e9c479b1ce53096d0d820fdbac955a9bcc5",
+  "frozen_verifier_sha256": "ed048270c67b7fd1ff409f4e2037bc3997d8261c2611fbc363823aabe8afe620",
+  "quality": {
+    "valid_only_if_all_records_and_vectors_pass": true,
+    "audit_count": 64,
+    "alpha": 0.05,
+    "observed_mean_loss": 0.00019444414217947154,
+    "population_mean_loss_upper": 0.0469414222817995,
+    "overlap_lower": 0.9530585777182005,
+    "state_fidelity_lower": 0.9083206525622392,
+    "above_0_349": true,
+    "above_0_38": true,
+    "scope": "Actual 53-bit CDF-law witness with numerical complex128 reference blocks. Statistical confidence is conditional on correct reference arithmetic; this verifier does not independently regenerate circuit amplitudes."
+  },
+  "timing": {
+    "primary_seconds": null,
+    "scope": "No central timing inference was made."
+  },
+  "approximate_probability_linear_xeb_all_outputs": {
+    "n": 1389,
+    "mean": 1.0093521975535147,
+    "standard_error": 0.03811508449100917,
+    "normal_95_interval_approximate": [
+      0.9346466319511367,
+      1.0840577631558928
+    ],
+    "min": -0.9300991945781814,
+    "max": 8.248534500353855,
+    "scope": "Diagnostic only: approximate generation amplitudes; NOT independent FP64 or exact all-output XEB."
+  },
+  "fp64_reference_linear_xeb_audited_outputs_only": {
+    "n": 64,
+    "mean": 0.7685973221554071,
+    "standard_error": 0.15936359401487785,
+    "normal_95_interval_approximate": [
+      0.4562446778862465,
+      1.0809499664245676
+    ],
+    "min": -0.9007644340496465,
+    "max": 4.922079096888257,
+    "scope": "Preselected audited subset only, numerical FP64 reference; does not score all outputs."
+  },
+  "worker_timings": [
+    {
+      "worker_id": 0,
+      "generation_setup_seconds": 1.5951084261760116,
+      "generation_seconds": 851.3587402692065,
+      "generation_contraction_seconds": 830.5286087952554,
+      "generation_cdf_seconds": 20.182766701560467,
+      "generation_write_seconds": 0.3288061791099608,
+      "reference_setup_seconds": 0.791039161849767,
+      "audit_seconds": 85.26215512119234,
+      "audit_contraction_seconds": 84.17423558188602,
+      "audit_compare_seconds": 0.8052595630288124,
+      "audit_write_seconds": 0.2520768838003278,
+      "worker_seconds_to_summary_build": 948.9437638078816,
+      "anchor_seconds": 5.735201905015856,
+      "process_start_unix": 1793789091.3542252,
+      "process_end_unix": 1793790040.4927258,
+      "worker_seconds_to_complete_marker": 949.1385008371435
+    },
+    {
+      "worker_id": 1,
+      "generation_setup_seconds": 1.59127200813964,
+      "generation_seconds": 852.073172098957,
+      "generation_contraction_seconds": 831.3334841658361,
+      "generation_cdf_seconds": 19.990050092805177,
+      "generation_write_seconds": 0.3194797607138753,
+      "reference_setup_seconds": 0.7320702611468732,
+      "audit_seconds": 85.29350393125787,
+      "audit_contraction_seconds": 84.19608560204506,
+      "audit_compare_seconds": 0.8154916726052761,
+      "audit_write_seconds": 0.25087243178859353,
+      "worker_seconds_to_summary_build": 949.6164462398738,
+      "anchor_seconds": 5.711464671883732,
+      "process_start_unix": 1793789091.3547068,
+      "process_end_unix": 1793790041.163567,
+      "worker_seconds_to_complete_marker": 949.8088608048856
+    },
+    {
+      "worker_id": 2,
+      "generation_setup_seconds": 1.5660229260101914,
+      "generation_seconds": 844.5947256986983,
+      "generation_contraction_seconds": 823.3126889723353,
+      "generation_cdf_seconds": 20.560682429932058,
+      "generation_write_seconds": 0.3626147876493633,
+      "reference_setup_seconds": 0.7305963835678995,
+      "audit_seconds": 85.12674586568028,
+      "audit_contraction_seconds": 84.01833403808996,
+      "audit_compare_seconds": 0.8231311230920255,
+      "audit_write_seconds": 0.2532328013330698,
+      "worker_seconds_to_summary_build": 941.9511907398701,
+      "anchor_seconds": 5.678091628942639,
+      "process_start_unix": 1793789091.3544588,
+      "process_end_unix": 1793790033.5051305,
+      "worker_seconds_to_complete_marker": 942.1506719556637
+    },
+    {
+      "worker_id": 3,
+      "generation_setup_seconds": 1.5777345993556082,
+      "generation_seconds": 852.1468797326088,
+      "generation_contraction_seconds": 831.1666427915916,
+      "generation_cdf_seconds": 20.221839491743594,
+      "generation_write_seconds": 0.3288822188042104,
+      "reference_setup_seconds": 0.719129194971174,
+      "audit_seconds": 85.3255921038799,
+      "audit_contraction_seconds": 84.20447011571378,
+      "audit_compare_seconds": 0.8406007611192763,
+      "audit_write_seconds": 0.2484499434940517,
+      "worker_seconds_to_summary_build": 949.7136914609,
+      "anchor_seconds": 5.679282031022012,
+      "process_start_unix": 1793789091.354683,
+      "process_end_unix": 1793790041.2616403,
+      "worker_seconds_to_complete_marker": 949.9069577078335
+    },
+    {
+      "worker_id": 4,
+      "generation_setup_seconds": 1.563413784839213,
+      "generation_seconds": 851.4768021050841,
+      "generation_contraction_seconds": 830.5338561511599,
+      "generation_cdf_seconds": 20.292210798710585,
+      "generation_write_seconds": 0.32502257404848933,
+      "reference_setup_seconds": 0.7398428949527442,
+      "audit_seconds": 85.27752613928169,
+      "audit_contraction_seconds": 84.1839634529315,
+      "audit_compare_seconds": 0.8201943691819906,
+      "audit_write_seconds": 0.24605182372033596,
+      "worker_seconds_to_summary_build": 949.0239060679451,
+      "anchor_seconds": 5.719119167886674,
+      "process_start_unix": 1793789091.354721,
+      "process_end_unix": 1793790040.5734072,
+      "worker_seconds_to_complete_marker": 949.2186865578406
+    },
+    {
+      "worker_id": 5,
+      "generation_setup_seconds": 1.56628029467538,
+      "generation_seconds": 846.298014416825,
+      "generation_contraction_seconds": 825.2345467205159,
+      "generation_cdf_seconds": 20.4239385034889,
+      "generation_write_seconds": 0.3345796288922429,
+      "reference_setup_seconds": 0.7543788850307465,
+      "audit_seconds": 85.22756050573662,
+      "audit_contraction_seconds": 84.16212822357193,
+      "audit_compare_seconds": 0.7931378791108727,
+      "audit_write_seconds": 0.2479288401082158,
+      "worker_seconds_to_summary_build": 943.752048522234,
+      "anchor_seconds": 5.692910020239651,
+      "process_start_unix": 1793789091.3540072,
+      "process_end_unix": 1793790035.3012476,
+      "worker_seconds_to_complete_marker": 943.9472404192202
+    },
+    {
+      "worker_id": 6,
+      "generation_setup_seconds": 1.572807471267879,
+      "generation_seconds": 846.3912236029282,
+      "generation_contraction_seconds": 825.705294127576,
+      "generation_cdf_seconds": 20.022182405460626,
+      "generation_write_seconds": 0.3274841755628586,
+      "reference_setup_seconds": 0.7217635111883283,
+      "audit_seconds": 85.27613847190514,
+      "audit_contraction_seconds": 84.18786280229688,
+      "audit_compare_seconds": 0.8153485301882029,
+      "audit_write_seconds": 0.24587375670671463,
+      "worker_seconds_to_summary_build": 943.8693321621977,
+      "anchor_seconds": 5.6920268018729985,
+      "process_start_unix": 1793789091.3535275,
+      "process_end_unix": 1793790035.4160151,
+      "worker_seconds_to_complete_marker": 944.0624878848903
+    },
+    {
+      "worker_id": 7,
+      "generation_setup_seconds": 1.5863458500243723,
+      "generation_seconds": 846.1632676599547,
+      "generation_contraction_seconds": 825.1414150097407,
+      "generation_cdf_seconds": 20.398770816624165,
+      "generation_write_seconds": 0.3353489921428263,
+      "reference_setup_seconds": 0.7397039607167244,
+      "audit_seconds": 85.22425117716193,
+      "audit_contraction_seconds": 84.14742999430746,
+      "audit_compare_seconds": 0.7987122824415565,
+      "audit_write_seconds": 0.24999172054231167,
+      "worker_seconds_to_summary_build": 943.6516229668632,
+      "anchor_seconds": 5.7086674170568585,
+      "process_start_unix": 1793789091.3534722,
+      "process_end_unix": 1793790035.198952,
+      "worker_seconds_to_complete_marker": 943.8454800210893
+    }
+  ],
+  "hardware": [
+    {
+      "worker_id": 0,
+      "device_name": "NVIDIA H200",
+      "total_bytes": 150393585664,
+      "compute_capability": [
+        9,
+        0
+      ],
+      "numpy": "2.2.6",
+      "cupy": "13.6.0",
+      "visible_device_count": 1,
+      "selected_device_index": 0,
+      "CUDA_VISIBLE_DEVICES": "0",
+      "cuda_driver_version": 13020,
+      "cuda_runtime_version": 12090,
+      "nvrtc_version": [
+        12,
+        9
+      ],
+      "nvidia_smi_allocation_evidence": {
+        "returncode": 0,
+        "stdout": "0, GPU-6100f6ef-1179-f5df-c4fa-eaec0d4ece79, NVIDIA H200, 143771 MiB\n1, GPU-b2991c3d-ce82-782f-9b35-54d467ea8eac, NVIDIA H200, 143771 MiB\n2, GPU-adfc2261-8f50-752f-786f-becf4812a016, NVIDIA H200, 143771 MiB\n3, GPU-d5de2299-b99f-06b4-dcc4-2388cd270162, NVIDIA H200, 143771 MiB\n4, GPU-d2cce989-feb1-b385-397b-369caf32eee4, NVIDIA H200, 143771 MiB\n5, GPU-551a77ba-428b-cd1d-8a40-b88c1dac6977, NVIDIA H200, 143771 MiB\n6, GPU-8734e1de-885a-1b04-6eb8-fa4147a6d575, NVIDIA H200, 143771 MiB\n7, GPU-cffa53be-265b-2de3-aca6-7887d2d044ab, NVIDIA H200, 143771 MiB\n",
+        "stderr": ""
+      }
+    },
+    {
+      "worker_id": 1,
+      "device_name": "NVIDIA H200",
+      "total_bytes": 150393585664,
+      "compute_capability": [
+        9,
+        0
+      ],
+      "numpy": "2.2.6",
+      "cupy": "13.6.0",
+      "visible_device_count": 1,
+      "selected_device_index": 0,
+      "CUDA_VISIBLE_DEVICES": "1",
+      "cuda_driver_version": 13020,
+      "cuda_runtime_version": 12090,
+      "nvrtc_version": [
+        12,
+        9
+      ],
+      "nvidia_smi_allocation_evidence": {
+        "returncode": 0,
+        "stdout": "0, GPU-6100f6ef-1179-f5df-c4fa-eaec0d4ece79, NVIDIA H200, 143771 MiB\n1, GPU-b2991c3d-ce82-782f-9b35-54d467ea8eac, NVIDIA H200, 143771 MiB\n2, GPU-adfc2261-8f50-752f-786f-becf4812a016, NVIDIA H200, 143771 MiB\n3, GPU-d5de2299-b99f-06b4-dcc4-2388cd270162, NVIDIA H200, 143771 MiB\n4, GPU-d2cce989-feb1-b385-397b-369caf32eee4, NVIDIA H200, 143771 MiB\n5, GPU-551a77ba-428b-cd1d-8a40-b88c1dac6977, NVIDIA H200, 143771 MiB\n6, GPU-8734e1de-885a-1b04-6eb8-fa4147a6d575, NVIDIA H200, 143771 MiB\n7, GPU-cffa53be-265b-2de3-aca6-7887d2d044ab, NVIDIA H200, 143771 MiB\n",
+        "stderr": ""
+      }
+    },
+    {
+      "worker_id": 2,
+      "device_name": "NVIDIA H200",
+      "total_bytes": 150393585664,
+      "compute_capability": [
+        9,
+        0
+      ],
+      "numpy": "2.2.6",
+      "cupy": "13.6.0",
+      "visible_device_count": 1,
+      "selected_device_index": 0,
+      "CUDA_VISIBLE_DEVICES": "2",
+      "cuda_driver_version": 13020,
+      "cuda_runtime_version": 12090,
+      "nvrtc_version": [
+        12,
+        9
+      ],
+      "nvidia_smi_allocation_evidence": {
+        "returncode": 0,
+        "stdout": "0, GPU-6100f6ef-1179-f5df-c4fa-eaec0d4ece79, NVIDIA H200, 143771 MiB\n1, GPU-b2991c3d-ce82-782f-9b35-54d467ea8eac, NVIDIA H200, 143771 MiB\n2, GPU-adfc2261-8f50-752f-786f-becf4812a016, NVIDIA H200, 143771 MiB\n3, GPU-d5de2299-b99f-06b4-dcc4-2388cd270162, NVIDIA H200, 143771 MiB\n4, GPU-d2cce989-feb1-b385-397b-369caf32eee4, NVIDIA H200, 143771 MiB\n5, GPU-551a77ba-428b-cd1d-8a40-b88c1dac6977, NVIDIA H200, 143771 MiB\n6, GPU-8734e1de-885a-1b04-6eb8-fa4147a6d575, NVIDIA H200, 143771 MiB\n7, GPU-cffa53be-265b-2de3-aca6-7887d2d044ab, NVIDIA H200, 143771 MiB\n",
+        "stderr": ""
+      }
+    },
+    {
+      "worker_id": 3,
+      "device_name": "NVIDIA H200",
+      "total_bytes": 150393585664,
+      "compute_capability": [
+        9,
+        0
+      ],
+      "numpy": "2.2.6",
+      "cupy": "13.6.0",
+      "visible_device_count": 1,
+      "selected_device_index": 0,
+      "CUDA_VISIBLE_DEVICES": "3",
+      "cuda_driver_version": 13020,
+      "cuda_runtime_version": 12090,
+      "nvrtc_version": [
+        12,
+        9
+      ],
+      "nvidia_smi_allocation_evidence": {
+        "returncode": 0,
+        "stdout": "0, GPU-6100f6ef-1179-f5df-c4fa-eaec0d4ece79, NVIDIA H200, 143771 MiB\n1, GPU-b2991c3d-ce82-782f-9b35-54d467ea8eac, NVIDIA H200, 143771 MiB\n2, GPU-adfc2261-8f50-752f-786f-becf4812a016, NVIDIA H200, 143771 MiB\n3, GPU-d5de2299-b99f-06b4-dcc4-2388cd270162, NVIDIA H200, 143771 MiB\n4, GPU-d2cce989-feb1-b385-397b-369caf32eee4, NVIDIA H200, 143771 MiB\n5, GPU-551a77ba-428b-cd1d-8a40-b88c1dac6977, NVIDIA H200, 143771 MiB\n6, GPU-8734e1de-885a-1b04-6eb8-fa4147a6d575, NVIDIA H200, 143771 MiB\n7, GPU-cffa53be-265b-2de3-aca6-7887d2d044ab, NVIDIA H200, 143771 MiB\n",
+        "stderr": ""
+      }
+    },
+    {
+      "worker_id": 4,
+      "device_name": "NVIDIA H200",
+      "total_bytes": 150393585664,
+      "compute_capability": [
+        9,
+        0
+      ],
+      "numpy": "2.2.6",
+      "cupy": "13.6.0",
+      "visible_device_count": 1,
+      "selected_device_index": 0,
+      "CUDA_VISIBLE_DEVICES": "4",
+      "cuda_driver_version": 13020,
+      "cuda_runtime_version": 12090,
+      "nvrtc_version": [
+        12,
+        9
+      ],
+      "nvidia_smi_allocation_evidence": {
+        "returncode": 0,
+        "stdout": "0, GPU-6100f6ef-1179-f5df-c4fa-eaec0d4ece79, NVIDIA H200, 143771 MiB\n1, GPU-b2991c3d-ce82-782f-9b35-54d467ea8eac, NVIDIA H200, 143771 MiB\n2, GPU-adfc2261-8f50-752f-786f-becf4812a016, NVIDIA H200, 143771 MiB\n3, GPU-d5de2299-b99f-06b4-dcc4-2388cd270162, NVIDIA H200, 143771 MiB\n4, GPU-d2cce989-feb1-b385-397b-369caf32eee4, NVIDIA H200, 143771 MiB\n5, GPU-551a77ba-428b-cd1d-8a40-b88c1dac6977, NVIDIA H200, 143771 MiB\n6, GPU-8734e1de-885a-1b04-6eb8-fa4147a6d575, NVIDIA H200, 143771 MiB\n7, GPU-cffa53be-265b-2de3-aca6-7887d2d044ab, NVIDIA H200, 143771 MiB\n",
+        "stderr": ""
+      }
+    },
+    {
+      "worker_id": 5,
+      "device_name": "NVIDIA H200",
+      "total_bytes": 150393585664,
+      "compute_capability": [
+        9,
+        0
+      ],
+      "numpy": "2.2.6",
+      "cupy": "13.6.0",
+      "visible_device_count": 1,
+      "selected_device_index": 0,
+      "CUDA_VISIBLE_DEVICES": "5",
+      "cuda_driver_version": 13020,
+      "cuda_runtime_version": 12090,
+      "nvrtc_version": [
+        12,
+        9
+      ],
+      "nvidia_smi_allocation_evidence": {
+        "returncode": 0,
+        "stdout": "0, GPU-6100f6ef-1179-f5df-c4fa-eaec0d4ece79, NVIDIA H200, 143771 MiB\n1, GPU-b2991c3d-ce82-782f-9b35-54d467ea8eac, NVIDIA H200, 143771 MiB\n2, GPU-adfc2261-8f50-752f-786f-becf4812a016, NVIDIA H200, 143771 MiB\n3, GPU-d5de2299-b99f-06b4-dcc4-2388cd270162, NVIDIA H200, 143771 MiB\n4, GPU-d2cce989-feb1-b385-397b-369caf32eee4, NVIDIA H200, 143771 MiB\n5, GPU-551a77ba-428b-cd1d-8a40-b88c1dac6977, NVIDIA H200, 143771 MiB\n6, GPU-8734e1de-885a-1b04-6eb8-fa4147a6d575, NVIDIA H200, 143771 MiB\n7, GPU-cffa53be-265b-2de3-aca6-7887d2d044ab, NVIDIA H200, 143771 MiB\n",
+        "stderr": ""
+      }
+    },
+    {
+      "worker_id": 6,
+      "device_name": "NVIDIA H200",
+      "total_bytes": 150393585664,
+      "compute_capability": [
+        9,
+        0
+      ],
+      "numpy": "2.2.6",
+      "cupy": "13.6.0",
+      "visible_device_count": 1,
+      "selected_device_index": 0,
+      "CUDA_VISIBLE_DEVICES": "6",
+      "cuda_driver_version": 13020,
+      "cuda_runtime_version": 12090,
+      "nvrtc_version": [
+        12,
+        9
+      ],
+      "nvidia_smi_allocation_evidence": {
+        "returncode": 0,
+        "stdout": "0, GPU-6100f6ef-1179-f5df-c4fa-eaec0d4ece79, NVIDIA H200, 143771 MiB\n1, GPU-b2991c3d-ce82-782f-9b35-54d467ea8eac, NVIDIA H200, 143771 MiB\n2, GPU-adfc2261-8f50-752f-786f-becf4812a016, NVIDIA H200, 143771 MiB\n3, GPU-d5de2299-b99f-06b4-dcc4-2388cd270162, NVIDIA H200, 143771 MiB\n4, GPU-d2cce989-feb1-b385-397b-369caf32eee4, NVIDIA H200, 143771 MiB\n5, GPU-551a77ba-428b-cd1d-8a40-b88c1dac6977, NVIDIA H200, 143771 MiB\n6, GPU-8734e1de-885a-1b04-6eb8-fa4147a6d575, NVIDIA H200, 143771 MiB\n7, GPU-cffa53be-265b-2de3-aca6-7887d2d044ab, NVIDIA H200, 143771 MiB\n",
+        "stderr": ""
+      }
+    },
+    {
+      "worker_id": 7,
+      "device_name": "NVIDIA H200",
+      "total_bytes": 150393585664,
+      "compute_capability": [
+        9,
+        0
+      ],
+      "numpy": "2.2.6",
+      "cupy": "13.6.0",
+      "visible_device_count": 1,
+      "selected_device_index": 0,
+      "CUDA_VISIBLE_DEVICES": "7",
+      "cuda_driver_version": 13020,
+      "cuda_runtime_version": 12090,
+      "nvrtc_version": [
+        12,
+        9
+      ],
+      "nvidia_smi_allocation_evidence": {
+        "returncode": 0,
+        "stdout": "0, GPU-6100f6ef-1179-f5df-c4fa-eaec0d4ece79, NVIDIA H200, 143771 MiB\n1, GPU-b2991c3d-ce82-782f-9b35-54d467ea8eac, NVIDIA H200, 143771 MiB\n2, GPU-adfc2261-8f50-752f-786f-becf4812a016, NVIDIA H200, 143771 MiB\n3, GPU-d5de2299-b99f-06b4-dcc4-2388cd270162, NVIDIA H200, 143771 MiB\n4, GPU-d2cce989-feb1-b385-397b-369caf32eee4, NVIDIA H200, 143771 MiB\n5, GPU-551a77ba-428b-cd1d-8a40-b88c1dac6977, NVIDIA H200, 143771 MiB\n6, GPU-8734e1de-885a-1b04-6eb8-fa4147a6d575, NVIDIA H200, 143771 MiB\n7, GPU-cffa53be-265b-2de3-aca6-7887d2d044ab, NVIDIA H200, 143771 MiB\n",
+        "stderr": ""
+      }
+    }
+  ],
+  "checks_scope": {
+    "rng": "Complete generation and audit-selection PCG64 states/draws replayed.",
+    "all_outputs": "IDs, source hashes, prefix/output mapping, stored CDF intervals and probability identities.",
+    "audited_outputs": "Archived full vectors loaded and hashed; full CDF/grid law and FP64 overlap recomputed.",
+    "remaining": "Unaudited vectors require later frozen GPU regeneration to check commitments. No quantum amplitudes were independently regenerated by this CPU verifier.",
+    "anchor": "Each worker matched the frozen pilot block hash and software/device versions. This supports reproducibility but is not a proof of determinism on every input."
+  },
+  "failures": [
+    {
+      "code": "central_timing_ledger_missing"
+    }
+  ],
+  "warnings": [
+    "Verifier NumPy version differs from protocol; every actual PCG64 state/draw was compared."
+  ],
+  "input_hashes": {
+    "work/dcs245/production/formal_source_r1/bundle/manifest.json": "6bc4363d6d59fac5deed062b54664b7c6faf843b081692a701ce0394f60f2eb3",
+    "work/dcs245/production/formal_source_r1/bundle/protocol.json": "5c4e3b14185b64eb9918a923805064ca0ddc1b80ef5e7e7be787c273f8c91b0e",
+    "work/dcs245/production/formal_source_r1/bundle/inputs/plans.json": "6424c8f44b40b10d73bc6925dcb6a1be62828dab5a640bb6334e024ce07fa73e",
+    "run_r1/worker0/source.json": "d68c9abacdfc38ad37691cf2caa02bbd2bb3407f2221ca834f5cf32e121c5fe6",
+    "run_r1/worker1/source.json": "71a9e4aedbeb7ddcfb390c2793141654e79350c22ec0c89d669e88f2bab9ed7b",
+    "run_r1/worker2/source.json": "6f52333e454fef722e2adc5253a7a6f6887370569f1d9ea1ca23de5d0d837151",
+    "run_r1/worker3/source.json": "ccddd082ab8544225c29c17eaec29a1d2eae2d2e9265084aa39edb64c1e2405e",
+    "run_r1/worker4/source.json": "6f2fa2a794fe17bdbc234416f20a31d5bd514100df1ecb179bf54cc34983084a",
+    "run_r1/worker5/source.json": "0ae9022a5fc807a8d8b521be8901bb35aa01aa57f135716e2c3cb13e59ea0038",
+    "run_r1/worker6/source.json": "3d4cb93d3f8c7d1b7795444f44effef6283281aba5bd419fcd1c3a4ebd688ebf",
+    "run_r1/worker7/source.json": "980f5e84713bad09b23c4990ace3cf4d5bedebbb5bca33ec72cd8338b70cf4d4",
+    "run_r1/worker0/hardware.json": "47c41fb2b6b14ed5d44617682324e07cc135f82725dd25650c37365f22dcb981",
+    "run_r1/worker0/anchor.json": "1e9a53c157737670798a9beb734aad4609cfa98662946cc8b32483bb414c0c58",
+    "run_r1/worker0/samples.jsonl": "b51e1c45a33279eab1b07c04a3f823269aae86761fdbb18208d3b10a8b1a9ffe",
+    "run_r1/worker0/audits.jsonl": "ba9f31f94bd924e0d2b14749666dd3e155b9e14a42cf427a71124e221b6997eb",
+    "run_r1/worker0/summary.json": "ba98828b4950203c12f3ba9765c50c281d6e25ee9b0aec465c30b82f751aa87d",
+    "run_r1/worker0/completed.json": "259f75799d4ac48705e199729f0d2007ec440b69c3eada4b600b23259a9dd9a8",
+    "run_r1/worker0/artifacts.json": "dd8031cf00c0359e96db8fad4246cd0009aa2992599299b9316b532b170fb6e4",
+    "run_r1/worker1/hardware.json": "5dac5d5c11664209b82ed218b0bbbc90307e329a436063fbc2f36b153383f991",
+    "run_r1/worker1/anchor.json": "f51e6afec15906c4b6c0a32808475d152d29f55007f2c483fe3fb5b3e6b02e0b",
+    "run_r1/worker1/samples.jsonl": "ffff313503dcc0d1712b6f4cb9e4de0a74d219e22c9121bc3181a51b393c5c75",
+    "run_r1/worker1/audits.jsonl": "857da34d7841566499b568a8a1d4e8a6d2ce5d72f8e1f57a851087e58a535db7",
+    "run_r1/worker1/summary.json": "84efea575a8dd1e11e99265503ca4b553a361c528d1268b03bba1323fb7e21b6",
+    "run_r1/worker1/completed.json": "64676140d37ce94c95880d8ef0c91374bc004b08fbf7c37a57ee833356675d4b",
+    "run_r1/worker1/artifacts.json": "c6137827f95b35ef135fc74f2b53589f8160a36a95936310c17cc34907f6298e",
+    "run_r1/worker2/hardware.json": "68e855c90ed89abb904f306a1be382d3f042049dc43f0743487b1deea37e8177",
+    "run_r1/worker2/anchor.json": "d867f872d6cbfff102053a21aebd4e9c799588f1c108afaf8772fdba7cac203d",
+    "run_r1/worker2/samples.jsonl": "845faceb22aa76bf129006acd4d6f0de81afb555cc914fe139e4662e71ad67d9",
+    "run_r1/worker2/audits.jsonl": "f0214dd95f78158668efba82847ecddee4b77a435206f028bb1bc2c04dd13818",
+    "run_r1/worker2/summary.json": "815c7ffef7b0bd2a40da78eadeab3001b3ff85a858a83e1315068db174a3cbd0",
+    "run_r1/worker2/completed.json": "185a21dbcc6802e3f0f63ddf6ab5221e9b7f204ac251919cab94a2e7685b70ab",
+    "run_r1/worker2/artifacts.json": "149466a7f7ba0d65d724d204c1c20beb5a7e13883aed6082e238ffa6275c96f4",
+    "run_r1/worker3/hardware.json": "f8dba1f14620af618d7ab23da683d0b7b8b9375c1b6fd0974c62c8d113b1e3c8",
+    "run_r1/worker3/anchor.json": "a957a95b9fd29897b0b7bb86e484325fa48f38eb4d9360605f9c46721ba5a999",
+    "run_r1/worker3/samples.jsonl": "160540501c91af356c75440eade5187c3e2670a06ea3a026d915ca2a73285ac7",
+    "run_r1/worker3/audits.jsonl": "207ec61d9083dae1de7fc251d5a47fb229e12d119555e593ade58b2bbba013a1",
+    "run_r1/worker3/summary.json": "7027f6188d9819b4c3dba65096412eb1283b6ca6d3ece74cf0a90f79656c67bb",
+    "run_r1/worker3/completed.json": "f2e60afc2566f532b1fd678ae01e635ac5e75679371ac7181afe3fc1946594eb",
+    "run_r1/worker3/artifacts.json": "e147c99d92a30c3f244cc89db84a25307106db56d76ad438bef8edccd5a7004f",
+    "run_r1/worker4/hardware.json": "9c73a003cb032c9b69f3f293e471a614e8317443cf397d201af7986b4ac268ce",
+    "run_r1/worker4/anchor.json": "fc3c27d4f560ffb685b4215410ffd570825e13be11143cd4906e0bd6821562e9",
+    "run_r1/worker4/samples.jsonl": "ac6edbc134d7eb30a939ed38b8e530ddc789b84debe95710d3c08dff5ca1bbb3",
+    "run_r1/worker4/audits.jsonl": "4fce445e6addb42c0f8ebba7afa9144cbd1c69bad1e965a122f3c8a75ecd0179",
+    "run_r1/worker4/summary.json": "552ce162373f14cefcd6fbc4c70135c280dc33a659d17264ad6bd89e6ea6c130",
+    "run_r1/worker4/completed.json": "8e003238150df1b7e122d96bd40ece97a3f29c8d2f154355ba8e580df9f252ec",
+    "run_r1/worker4/artifacts.json": "2bb4ccca673f0da73d10b46eb5bfb8d2636850463ea1d99ccd8b0482c3dc9287",
+    "run_r1/worker5/hardware.json": "7703f476b732a4a7064befe703def4d8d5ca05d79839883129eb378c651c1869",
+    "run_r1/worker5/anchor.json": "88ff9b9a243467b7d24f3c701a594a8f4c7e2f63734b8b4e303f28c828740ab7",
+    "run_r1/worker5/samples.jsonl": "7aebbe399ab687cf39fbebb321337a4a186288b7447079d8901a3cf0b889b0e4",
+    "run_r1/worker5/audits.jsonl": "8194eeb2ea570fd1c582005533af9a4b459b6f90beb028f8ac45bac1ed8181b3",
+    "run_r1/worker5/summary.json": "e38e01a96b21349cf65e3f6b9d102a29e11dbcb609869f634e3d4d2fdd3c342e",
+    "run_r1/worker5/completed.json": "effcae66702229bf846d09bccb18a3c4df07297b91b7aeb76ea48792e4379c9e",
+    "run_r1/worker5/artifacts.json": "cce627c5f0697df54fd45bbce9bece49ddb7f42e868685d5e42bce7a4dd51bca",
+    "run_r1/worker6/hardware.json": "544ce088d8d419d0c8514acc4c29542fc0776db06bbb2e0736ce10be061efcb1",
+    "run_r1/worker6/anchor.json": "3e6e4e3c3be67b3535adc3ac593e151ccd9b9fbc9f11c7279148364996c18191",
+    "run_r1/worker6/samples.jsonl": "fbb0c94daa6487bd1d0c255bcf39785776087ef2d216daf9c1e1d5a18bd44321",
+    "run_r1/worker6/audits.jsonl": "93cf5cfbccf33bd62b1e56d65104690e75736c03dac3d7d7f32bc45297625b56",
+    "run_r1/worker6/summary.json": "527f5979488ce7f3ac97fce6f8991a9e4092ce3128187ffdb978de287f9ec6ff",
+    "run_r1/worker6/completed.json": "4e2ecca7d55330d8a067cb52929d1d35df9dc5b550a6b555c089dbc65874a41c",
+    "run_r1/worker6/artifacts.json": "db37d6dcbad893dbc460b3466303d32583c0a060ed98bd1156abdb68e7b610b0",
+    "run_r1/worker7/hardware.json": "b07833372e2527e5a2f3139b3c637ca08b6f7bcae9c8549d7104257a95feb207",
+    "run_r1/worker7/anchor.json": "bf5ece019afab06d352092d3ee9d0cd67fd2a48446817d43fbabb601f9eaeefc",
+    "run_r1/worker7/samples.jsonl": "b3a4ad02151e1baca196c2eea7164b132f428fee4416ec63eb1957e7ace23e87",
+    "run_r1/worker7/audits.jsonl": "f847cdb6e065eeda86d10ec6aff2c437418fada6f347678017384f9831f7dd03",
+    "run_r1/worker7/summary.json": "815ba1028a29d5cd5948e9d7a24045e1e7c0ac16a90f0d63e0414aaa5c1150db",
+    "run_r1/worker7/completed.json": "566f8720cb5dca2e782fe40c62b5dfebad52f07b75c5e86c0b97f6b26de9b719",
+    "run_r1/worker7/artifacts.json": "af60bdac12eb348f92729fc9b38ca3d62a50b313df4e179cf293fc360e72268b"
+  },
+  "internal_time_and_quality_targets_met": false
+}

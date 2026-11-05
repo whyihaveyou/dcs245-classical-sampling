@@ -1,0 +1,7 @@
+Input dataset: Dataset for Sampling hard circuits with verifiably high fidelity
+Source: https://zenodo.org/records/22233383
+License declared by the source metadata: Creative Commons Attribution 4.0 (CC-BY-4.0).
+License URL: https://creativecommons.org/licenses/by/4.0/
+Original member: v2/loop64_314t.qasm; copied without changes.
+Creators and frozen metadata evidence: PROVENANCE.json and dataset_metadata.json.
+The Apache-2.0 license copied for dcs-rankwidth applies to code, not this dataset.

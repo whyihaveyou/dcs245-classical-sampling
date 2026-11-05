@@ -1,0 +1,686 @@
+{
+  "artifacts": {
+    "worker0_anchor.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker0_approx_000008.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker0_approx_000016.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker0_approx_000104.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker0_approx_000448.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker0_approx_000640.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker0_approx_001000.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker0_approx_001120.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker0_approx_001384.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker0_artifacts.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker0_audits.jsonl": {
+      "max_size_bytes": 16777216
+    },
+    "worker0_completed.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker0_failure.json": {
+      "max_size_bytes": 2097152,
+      "required": false
+    },
+    "worker0_hardware.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker0_reference_000008.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker0_reference_000016.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker0_reference_000104.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker0_reference_000448.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker0_reference_000640.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker0_reference_001000.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker0_reference_001120.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker0_reference_001384.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker0_runner_exit.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker0_samples.jsonl": {
+      "max_size_bytes": 16777216
+    },
+    "worker0_source.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker0_summary.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker0_transport_artifacts.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker0_worker.log": {
+      "max_size_bytes": 33554432
+    },
+    "worker1_anchor.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker1_approx_000041.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker1_approx_000593.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker1_approx_000673.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker1_approx_000857.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker1_approx_000865.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker1_approx_000969.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker1_approx_001113.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker1_approx_001233.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker1_artifacts.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker1_audits.jsonl": {
+      "max_size_bytes": 16777216
+    },
+    "worker1_completed.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker1_failure.json": {
+      "max_size_bytes": 2097152,
+      "required": false
+    },
+    "worker1_hardware.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker1_reference_000041.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker1_reference_000593.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker1_reference_000673.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker1_reference_000857.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker1_reference_000865.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker1_reference_000969.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker1_reference_001113.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker1_reference_001233.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker1_runner_exit.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker1_samples.jsonl": {
+      "max_size_bytes": 16777216
+    },
+    "worker1_source.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker1_summary.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker1_transport_artifacts.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker1_worker.log": {
+      "max_size_bytes": 33554432
+    },
+    "worker2_anchor.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker2_approx_000058.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker2_approx_000082.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker2_approx_000322.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker2_approx_000402.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker2_approx_000890.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker2_approx_001034.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker2_approx_001218.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker2_approx_001370.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker2_artifacts.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker2_audits.jsonl": {
+      "max_size_bytes": 16777216
+    },
+    "worker2_completed.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker2_failure.json": {
+      "max_size_bytes": 2097152,
+      "required": false
+    },
+    "worker2_hardware.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker2_reference_000058.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker2_reference_000082.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker2_reference_000322.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker2_reference_000402.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker2_reference_000890.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker2_reference_001034.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker2_reference_001218.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker2_reference_001370.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker2_runner_exit.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker2_samples.jsonl": {
+      "max_size_bytes": 16777216
+    },
+    "worker2_source.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker2_summary.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker2_transport_artifacts.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker2_worker.log": {
+      "max_size_bytes": 33554432
+    },
+    "worker3_anchor.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker3_approx_000171.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker3_approx_000211.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker3_approx_000539.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker3_approx_000715.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker3_approx_000803.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker3_approx_001131.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker3_approx_001355.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker3_approx_001379.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker3_artifacts.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker3_audits.jsonl": {
+      "max_size_bytes": 16777216
+    },
+    "worker3_completed.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker3_failure.json": {
+      "max_size_bytes": 2097152,
+      "required": false
+    },
+    "worker3_hardware.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker3_reference_000171.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker3_reference_000211.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker3_reference_000539.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker3_reference_000715.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker3_reference_000803.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker3_reference_001131.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker3_reference_001355.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker3_reference_001379.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker3_runner_exit.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker3_samples.jsonl": {
+      "max_size_bytes": 16777216
+    },
+    "worker3_source.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker3_summary.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker3_transport_artifacts.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker3_worker.log": {
+      "max_size_bytes": 33554432
+    },
+    "worker4_anchor.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker4_approx_000124.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker4_approx_000412.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker4_approx_000516.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker4_approx_000580.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker4_approx_000948.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker4_approx_000996.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker4_approx_001324.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker4_approx_001340.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker4_artifacts.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker4_audits.jsonl": {
+      "max_size_bytes": 16777216
+    },
+    "worker4_completed.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker4_failure.json": {
+      "max_size_bytes": 2097152,
+      "required": false
+    },
+    "worker4_hardware.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker4_reference_000124.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker4_reference_000412.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker4_reference_000516.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker4_reference_000580.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker4_reference_000948.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker4_reference_000996.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker4_reference_001324.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker4_reference_001340.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker4_runner_exit.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker4_samples.jsonl": {
+      "max_size_bytes": 16777216
+    },
+    "worker4_source.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker4_summary.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker4_transport_artifacts.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker4_worker.log": {
+      "max_size_bytes": 33554432
+    },
+    "worker5_anchor.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker5_approx_000013.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker5_approx_000045.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker5_approx_000229.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker5_approx_000949.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker5_approx_001133.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker5_approx_001165.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker5_approx_001189.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker5_approx_001341.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker5_artifacts.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker5_audits.jsonl": {
+      "max_size_bytes": 16777216
+    },
+    "worker5_completed.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker5_failure.json": {
+      "max_size_bytes": 2097152,
+      "required": false
+    },
+    "worker5_hardware.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker5_reference_000013.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker5_reference_000045.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker5_reference_000229.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker5_reference_000949.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker5_reference_001133.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker5_reference_001165.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker5_reference_001189.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker5_reference_001341.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker5_runner_exit.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker5_samples.jsonl": {
+      "max_size_bytes": 16777216
+    },
+    "worker5_source.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker5_summary.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker5_transport_artifacts.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker5_worker.log": {
+      "max_size_bytes": 33554432
+    },
+    "worker6_anchor.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker6_approx_000006.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker6_approx_000286.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker6_approx_000318.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker6_approx_000462.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker6_approx_000654.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker6_approx_000662.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker6_approx_000910.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker6_approx_000958.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker6_artifacts.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker6_audits.jsonl": {
+      "max_size_bytes": 16777216
+    },
+    "worker6_completed.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker6_failure.json": {
+      "max_size_bytes": 2097152,
+      "required": false
+    },
+    "worker6_hardware.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker6_reference_000006.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker6_reference_000286.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker6_reference_000318.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker6_reference_000462.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker6_reference_000654.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker6_reference_000662.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker6_reference_000910.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker6_reference_000958.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker6_runner_exit.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker6_samples.jsonl": {
+      "max_size_bytes": 16777216
+    },
+    "worker6_source.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker6_summary.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker6_transport_artifacts.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker6_worker.log": {
+      "max_size_bytes": 33554432
+    },
+    "worker7_anchor.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker7_approx_000271.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker7_approx_000295.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker7_approx_000335.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker7_approx_000543.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker7_approx_000799.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker7_approx_001015.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker7_approx_001079.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker7_approx_001215.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker7_artifacts.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker7_audits.jsonl": {
+      "max_size_bytes": 16777216
+    },
+    "worker7_completed.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker7_failure.json": {
+      "max_size_bytes": 2097152,
+      "required": false
+    },
+    "worker7_hardware.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker7_reference_000271.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker7_reference_000295.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker7_reference_000335.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker7_reference_000543.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker7_reference_000799.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker7_reference_001015.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker7_reference_001079.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker7_reference_001215.npy": {
+      "max_size_bytes": 41943040
+    },
+    "worker7_runner_exit.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker7_samples.jsonl": {
+      "max_size_bytes": 16777216
+    },
+    "worker7_source.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker7_summary.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker7_transport_artifacts.json": {
+      "max_size_bytes": 2097152
+    },
+    "worker7_worker.log": {
+      "max_size_bytes": 33554432
+    }
+  },
+  "run_id": "dcs245-20261104-r1",
+  "schema_version": 1
+}

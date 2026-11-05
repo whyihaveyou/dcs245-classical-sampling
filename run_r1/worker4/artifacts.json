@@ -1,0 +1,94 @@
+{
+  "worker_id": 4,
+  "files": {
+    "anchor.json": {
+      "bytes": 1131,
+      "sha256": "fc3c27d4f560ffb685b4215410ffd570825e13be11143cd4906e0bd6821562e9"
+    },
+    "approx_000124.npy": {
+      "bytes": 16777344,
+      "sha256": "cebf70b57389bb97864d61d0d79a66a66554771d5fd9c589d9de61beee741ae6"
+    },
+    "approx_000412.npy": {
+      "bytes": 16777344,
+      "sha256": "9d4d62dea0d69a19f08eb34c783b8e5146b576696d2ebb83bcecda0f178fa7fd"
+    },
+    "approx_000516.npy": {
+      "bytes": 16777344,
+      "sha256": "78ce92863d4358253d7eefe123280a68de65d2324295df8cc9cf4a0f1ffe70d1"
+    },
+    "approx_000580.npy": {
+      "bytes": 16777344,
+      "sha256": "572edb09279c5c9bfdb55e8be9e2313baa052fc6024cd56f48ede316085b6589"
+    },
+    "approx_000948.npy": {
+      "bytes": 16777344,
+      "sha256": "5c431c38545a45c45029e41a003b0a56ae99e27cd6590daf61d0218562a2e90f"
+    },
+    "approx_000996.npy": {
+      "bytes": 16777344,
+      "sha256": "d7129612721bfe3b46fdd87b8132044403b07494c0d73fc8f7a24c489a8a7328"
+    },
+    "approx_001324.npy": {
+      "bytes": 16777344,
+      "sha256": "e1bc6aeaa2eafa15061798f09e01670a974ff060897416f03d103a5a2a717d5c"
+    },
+    "approx_001340.npy": {
+      "bytes": 16777344,
+      "sha256": "e2d4ccb0f9f67ccab2b1e58a2dfde8908119480da096f8c3b4e8fb58d8d3e218"
+    },
+    "audits.jsonl": {
+      "bytes": 23993,
+      "sha256": "4fce445e6addb42c0f8ebba7afa9144cbd1c69bad1e965a122f3c8a75ecd0179"
+    },
+    "hardware.json": {
+      "bytes": 1004,
+      "sha256": "9c73a003cb032c9b69f3f293e471a614e8317443cf397d201af7986b4ac268ce"
+    },
+    "reference_000124.npy": {
+      "bytes": 16777344,
+      "sha256": "720c33a72b11131b0ba49cfe58411a4b76aa1b23ee226e03f004698cc78f18d2"
+    },
+    "reference_000412.npy": {
+      "bytes": 16777344,
+      "sha256": "2ef0e73ebeade327400427262c33778b39ed2a2d526f9460b3821ce93bfa418c"
+    },
+    "reference_000516.npy": {
+      "bytes": 16777344,
+      "sha256": "4956cbd15a32706ccce8f8ee1c36940d3862e0b289370200d5937991e2206393"
+    },
+    "reference_000580.npy": {
+      "bytes": 16777344,
+      "sha256": "d33ec888018aa0d78865563a302cb5d48f81d9ee07db4bca4c13b2309c0927ea"
+    },
+    "reference_000948.npy": {
+      "bytes": 16777344,
+      "sha256": "c9255d0073f2ddc3fb3336270d966b50c47a83a91d1e8ecfe46b2d14eb4454ea"
+    },
+    "reference_000996.npy": {
+      "bytes": 16777344,
+      "sha256": "9e7c92ba3f85dbda59de7630171f7a4a114b76d2c41907c1d521364ae3ab4e0d"
+    },
+    "reference_001324.npy": {
+      "bytes": 16777344,
+      "sha256": "2e85db206bd515bd5eb75013fe85a0de49ff537507cdb3e38549723a95f7eaef"
+    },
+    "reference_001340.npy": {
+      "bytes": 16777344,
+      "sha256": "cf3c65d0874ad3f89834e5c3299563af7dd464eff98d6e8e57473caa748ce1c2"
+    },
+    "samples.jsonl": {
+      "bytes": 466767,
+      "sha256": "ac6edbc134d7eb30a939ed38b8e530ddc789b84debe95710d3c08dff5ca1bbb3"
+    },
+    "source.json": {
+      "bytes": 1986,
+      "sha256": "6f2fa2a794fe17bdbc234416f20a31d5bd514100df1ecb179bf54cc34983084a"
+    },
+    "summary.json": {
+      "bytes": 3189,
+      "sha256": "552ce162373f14cefcd6fbc4c70135c280dc33a659d17264ad6bd89e6ea6c130"
+    }
+  },
+  "scope": "Durable artifacts after generation and all fixed audits"
+}

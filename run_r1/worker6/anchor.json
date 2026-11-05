@@ -1,0 +1,50 @@
+{
+  "worker_id": 6,
+  "input_data_bits": "0110010110110001010111101111100110110111110101000011010110010010",
+  "expected_amplitudes_sha256": "fa6c448d313c34b7d4e56941ab8aa9afc70359b4c0f0dd1dbc3db444baf53f85",
+  "actual_amplitudes_sha256": "fa6c448d313c34b7d4e56941ab8aa9afc70359b4c0f0dd1dbc3db444baf53f85",
+  "passed": true,
+  "contraction": {
+    "seconds": 5.667342030908912,
+    "part": 0,
+    "parts": 1,
+    "slices_evaluated": 4,
+    "prefix_dtype": "complex64",
+    "rmax": 34,
+    "terminal_rank": 20,
+    "work_per_slice": 504846186778,
+    "open_vertices": [
+      8,
+      9,
+      15,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      0,
+      14,
+      13,
+      1,
+      11,
+      12,
+      63,
+      60,
+      59,
+      61,
+      62
+    ],
+    "vector_scale": "sqrt(2^(n-k)); sum all complex parts before probabilities"
+  },
+  "device_name": "NVIDIA H200",
+  "numpy": "2.2.6",
+  "cupy": "13.6.0",
+  "cuda_driver_version": 13020,
+  "cuda_runtime_version": 12090,
+  "nvrtc_version": [
+    12,
+    9
+  ],
+  "scope": "Fixed block outside 1389 production outputs and 64 audit IDs; no production RNG consumed"
+}

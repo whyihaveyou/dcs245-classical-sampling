@@ -1,0 +1,24 @@
+{
+  "device_name": "NVIDIA H200",
+  "total_bytes": 150393585664,
+  "compute_capability": [
+    9,
+    0
+  ],
+  "numpy": "2.2.6",
+  "cupy": "13.6.0",
+  "visible_device_count": 1,
+  "selected_device_index": 0,
+  "CUDA_VISIBLE_DEVICES": "6",
+  "cuda_driver_version": 13020,
+  "cuda_runtime_version": 12090,
+  "nvrtc_version": [
+    12,
+    9
+  ],
+  "nvidia_smi_allocation_evidence": {
+    "returncode": 0,
+    "stdout": "0, GPU-6100f6ef-1179-f5df-c4fa-eaec0d4ece79, NVIDIA H200, 143771 MiB\n1, GPU-b2991c3d-ce82-782f-9b35-54d467ea8eac, NVIDIA H200, 143771 MiB\n2, GPU-adfc2261-8f50-752f-786f-becf4812a016, NVIDIA H200, 143771 MiB\n3, GPU-d5de2299-b99f-06b4-dcc4-2388cd270162, NVIDIA H200, 143771 MiB\n4, GPU-d2cce989-feb1-b385-397b-369caf32eee4, NVIDIA H200, 143771 MiB\n5, GPU-551a77ba-428b-cd1d-8a40-b88c1dac6977, NVIDIA H200, 143771 MiB\n6, GPU-8734e1de-885a-1b04-6eb8-fa4147a6d575, NVIDIA H200, 143771 MiB\n7, GPU-cffa53be-265b-2de3-aca6-7887d2d044ab, NVIDIA H200, 143771 MiB\n",
+    "stderr": ""
+  }
+}

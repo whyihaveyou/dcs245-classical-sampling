@@ -1,0 +1,63 @@
+{
+  "circuit_file": "circuit.qasm",
+  "source_url": "https://zenodo.org/records/22233383",
+  "original_archive_member": "v2/loop64_314t.qasm",
+  "QAT_issue": "https://github.com/quantum-advantage-tracker/quantum-advantage-tracker.github.io/issues/245",
+  "sha256": "7a0b8aa6bcef23b901720cb21c9b05cc5de42d4b0e872db4606eec03766f73e5",
+  "dataset_title": "Dataset for Sampling hard circuits with verifiably high fidelity",
+  "creators": [
+    {
+      "name": "Chung, Jay-U",
+      "affiliation": "IBM (United States)"
+    },
+    {
+      "name": "Martiel, Simon",
+      "affiliation": "IBM (France)"
+    },
+    {
+      "name": "Seif, Alireza",
+      "affiliation": "IBM (United States)"
+    },
+    {
+      "name": "Ghosh, Soumik",
+      "affiliation": "University of Chicago"
+    },
+    {
+      "name": "Hincks, Ian",
+      "affiliation": "IBM (United States)"
+    },
+    {
+      "name": "Deshpande, Abhinav",
+      "affiliation": "IBM (United States)"
+    },
+    {
+      "name": "Manabe, Hidetaka",
+      "affiliation": "Singapore University of Technology and Design"
+    },
+    {
+      "name": "Gu, Hanfeng",
+      "affiliation": "Nvidia (United States)"
+    },
+    {
+      "name": "Pan, Feng",
+      "affiliation": "Singapore University of Technology and Design"
+    },
+    {
+      "name": "Fefferman, Bill",
+      "affiliation": "University of Chicago"
+    },
+    {
+      "name": "Gambetta, Jay",
+      "affiliation": "IBM (United States)"
+    },
+    {
+      "name": "Javadi-Abhari, Ali",
+      "affiliation": "IBM (United States)"
+    }
+  ],
+  "data_license_as_declared_by_Zenodo": {
+    "id": "cc-by-4.0"
+  },
+  "license_evidence": "dataset_metadata.json, frozen snapshot of the source record",
+  "license_scope": "Dataset license is separate from the Apache-2.0 license of upstream dcs-rankwidth code."
+}

@@ -1,0 +1,12 @@
+{
+  "worker_id": 1,
+  "returncode": 0,
+  "child_returncode": 0,
+  "runner_error": null,
+  "start_unix": 1793789091.3432143,
+  "end_unix": 1793790041.3821366,
+  "runner_monotonic_seconds_before_receipt": 950.0389235061593,
+  "worker_log_sha256": "c3c72b6f26cdd388ed5b2cf2548f6252fe8a28cc04d9b75e996924f0dfe3653d",
+  "worker_completed": true,
+  "scope": "Includes child execution and log preservation; central scheduling/upload/collection are separate."
+}

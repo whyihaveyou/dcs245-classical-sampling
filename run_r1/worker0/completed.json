@@ -1,0 +1,10 @@
+{
+  "completed": true,
+  "worker_id": 0,
+  "worker_seconds_to_complete_marker": 949.1385008371435,
+  "summary_write_seconds": 0.0004391768015921116,
+  "artifact_manifest_write_seconds": 0.00038596615195274353,
+  "end_unix": 1793790040.4927258,
+  "summary_sha256": "ba98828b4950203c12f3ba9765c50c281d6e25ee9b0aec465c30b82f751aa87d",
+  "artifacts_sha256": "dd8031cf00c0359e96db8fad4246cd0009aa2992599299b9316b532b170fb6e4"
+}
