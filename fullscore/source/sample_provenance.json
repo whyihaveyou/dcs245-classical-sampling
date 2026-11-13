@@ -1,0 +1,52 @@
+{
+  "source": "frozen r1 classical outputs; not IBM hardware samples",
+  "count": 1389,
+  "unique_bitstrings": 1389,
+  "workers": [
+    {
+      "worker_id": 0,
+      "samples_sha256": "b51e1c45a33279eab1b07c04a3f823269aae86761fdbb18208d3b10a8b1a9ffe",
+      "audits_sha256": "ba9f31f94bd924e0d2b14749666dd3e155b9e14a42cf427a71124e221b6997eb"
+    },
+    {
+      "worker_id": 1,
+      "samples_sha256": "ffff313503dcc0d1712b6f4cb9e4de0a74d219e22c9121bc3181a51b393c5c75",
+      "audits_sha256": "857da34d7841566499b568a8a1d4e8a6d2ce5d72f8e1f57a851087e58a535db7"
+    },
+    {
+      "worker_id": 2,
+      "samples_sha256": "845faceb22aa76bf129006acd4d6f0de81afb555cc914fe139e4662e71ad67d9",
+      "audits_sha256": "f0214dd95f78158668efba82847ecddee4b77a435206f028bb1bc2c04dd13818"
+    },
+    {
+      "worker_id": 3,
+      "samples_sha256": "160540501c91af356c75440eade5187c3e2670a06ea3a026d915ca2a73285ac7",
+      "audits_sha256": "207ec61d9083dae1de7fc251d5a47fb229e12d119555e593ade58b2bbba013a1"
+    },
+    {
+      "worker_id": 4,
+      "samples_sha256": "ac6edbc134d7eb30a939ed38b8e530ddc789b84debe95710d3c08dff5ca1bbb3",
+      "audits_sha256": "4fce445e6addb42c0f8ebba7afa9144cbd1c69bad1e965a122f3c8a75ecd0179"
+    },
+    {
+      "worker_id": 5,
+      "samples_sha256": "7aebbe399ab687cf39fbebb321337a4a186288b7447079d8901a3cf0b889b0e4",
+      "audits_sha256": "8194eeb2ea570fd1c582005533af9a4b459b6f90beb028f8ac45bac1ed8181b3"
+    },
+    {
+      "worker_id": 6,
+      "samples_sha256": "fbb0c94daa6487bd1d0c255bcf39785776087ef2d216daf9c1e1d5a18bd44321",
+      "audits_sha256": "93cf5cfbccf33bd62b1e56d65104690e75736c03dac3d7d7f32bc45297625b56"
+    },
+    {
+      "worker_id": 7,
+      "samples_sha256": "b3a4ad02151e1baca196c2eea7164b132f428fee4416ec63eb1957e7ace23e87",
+      "audits_sha256": "f847cdb6e065eeda86d10ec6aff2c437418fada6f347678017384f9831f7dd03"
+    }
+  ],
+  "manifest_sha256": "6bc4363d6d59fac5deed062b54664b7c6faf843b081692a701ce0394f60f2eb3",
+  "sample_list_sha256": "3904ff7d5c2bf168a6566e15829075bd96cca989ca8db1eb056d07228dd95bf8",
+  "CPU_checks": "all source hashes, 1389 mappings and 64 stored FP64 vector probabilities passed",
+  "bootstrap_seed": 20261113,
+  "bootstrap_repetitions": 20000
+}

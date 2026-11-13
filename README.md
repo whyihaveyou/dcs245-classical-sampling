@@ -28,3 +28,14 @@ Each T gate is replaced by a gadget qubit, which turns the circuit into a 378-qu
 ## Attribution
 
 The contraction code starts from Kim Renaud's [dcs-rankwidth](https://github.com/kim-renaud/dcs-rankwidth) (Apache-2.0; see `source/LICENSE` and `source/NOTICE`), used for #249. The uniform-prefix strategy follows H. Manabe, H. Gu and F. Pan, arXiv:2608.13110, Sec. 4.2.
+
+## Full-output scores (added 2026-11-13)
+
+`fullscore/`: complex128 probabilities of all 1,389 classical samples, recomputed by full contraction of each 2^20 conditional block (no truncation), with the scoring code, frozen manifest and statistics.
+
+| Samples | Linear XEB ± s.e. | 95% bootstrap interval |
+|---|---:|---:|
+| Classical (this run), 1,389 | 1.009 ± 0.038 | [0.937, 1.085] |
+| IBM hardware (#245, probabilities from #249), 1,389 | 0.390 ± 0.034 | [0.324, 0.457] |
+
+The 64 audit probabilities agree with the earlier FP64 values to 2.2e-16 relative. Scoring took 4.05 GPU-hours on 8 H200 GPUs; it verifies the samples and is not part of the sampling time.

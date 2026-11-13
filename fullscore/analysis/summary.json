@@ -1,0 +1,222 @@
+{
+  "analysis_numpy_version": "2.0.2",
+  "selected_point_FP32_vs_FP64": {
+    "max_relative_error": 3.842227526584807e-06,
+    "median_relative_error": 3.6114943291476465e-07,
+    "p99_relative_error": 2.2690508717548794e-06,
+    "count_above_1e_4": 0,
+    "scope": "All selected points only; not a total-variation bound for the whole distribution."
+  },
+  "validation_passed": true,
+  "count": 1389,
+  "anchor_count": 64,
+  "max_anchor_relative_probability_error": 2.220446049250313e-16,
+  "classical_r1": {
+    "count": 1389,
+    "linear_xeb": 1.0093522198034124,
+    "standard_error_iid": 0.03811508599148967,
+    "bootstrap95_percentile_iid": [
+      0.9365447243630557,
+      1.084810377252878
+    ],
+    "minimum_point": -0.930099160531647,
+    "maximum_point": 8.248536147328492
+  },
+  "IBM_hardware": {
+    "count": 1389,
+    "linear_xeb": 0.38981734032253823,
+    "standard_error_iid": 0.03375253419521905,
+    "bootstrap95_percentile_iid": [
+      0.3242211775760138,
+      0.4569113720315288
+    ],
+    "minimum_point": -0.9960361937185286,
+    "maximum_point": 8.45378001573056
+  },
+  "difference": {
+    "linear_xeb": 0.6195348794808742,
+    "standard_error_independent_iid": 0.05091162288454457,
+    "bootstrap95_independent_iid": [
+      0.5198402896427278,
+      0.7204314963515746
+    ]
+  },
+  "bootstrap": {
+    "repetitions": 20000,
+    "seed": 20261113,
+    "method": "percentile, sample-level iid resampling; hardware temporal correlations not modeled"
+  },
+  "workers": [
+    {
+      "worker_id": 0,
+      "sample_count": 174,
+      "hardware": "NVIDIA H200, GPU-62cbaf26-0efe-0aca-d549-1c5e528fafcc, 143771 MiB, 595.71.05",
+      "numpy": "2.2.6",
+      "cupy": "13.6.0",
+      "sample_list_sha256": "3904ff7d5c2bf168a6566e15829075bd96cca989ca8db1eb056d07228dd95bf8",
+      "manifest_sha256": "c7f8b08c1da6a278b9c38c283b1a3b2f7cff5418067132822b1dfcb55acca151",
+      "smoke": false,
+      "setup_seconds": 1.627385312691331,
+      "score_seconds": 1825.8057656418532,
+      "scope": "FP64 numerical reference amplitudes using frozen inplace_k3_fp64 plan."
+    },
+    {
+      "worker_id": 1,
+      "sample_count": 174,
+      "hardware": "NVIDIA H200, GPU-af056f21-6abb-cbe3-a7c0-229a4f02f724, 143771 MiB, 595.71.05",
+      "numpy": "2.2.6",
+      "cupy": "13.6.0",
+      "sample_list_sha256": "3904ff7d5c2bf168a6566e15829075bd96cca989ca8db1eb056d07228dd95bf8",
+      "manifest_sha256": "c7f8b08c1da6a278b9c38c283b1a3b2f7cff5418067132822b1dfcb55acca151",
+      "smoke": false,
+      "setup_seconds": 1.6985573004931211,
+      "score_seconds": 1828.6131609696895,
+      "scope": "FP64 numerical reference amplitudes using frozen inplace_k3_fp64 plan."
+    },
+    {
+      "worker_id": 2,
+      "sample_count": 174,
+      "hardware": "NVIDIA H200, GPU-b7c54dac-f338-a8ca-ad6b-cd2386c41ef4, 143771 MiB, 595.71.05",
+      "numpy": "2.2.6",
+      "cupy": "13.6.0",
+      "sample_list_sha256": "3904ff7d5c2bf168a6566e15829075bd96cca989ca8db1eb056d07228dd95bf8",
+      "manifest_sha256": "c7f8b08c1da6a278b9c38c283b1a3b2f7cff5418067132822b1dfcb55acca151",
+      "smoke": false,
+      "setup_seconds": 1.8062056582421064,
+      "score_seconds": 1826.3699178807437,
+      "scope": "FP64 numerical reference amplitudes using frozen inplace_k3_fp64 plan."
+    },
+    {
+      "worker_id": 3,
+      "sample_count": 174,
+      "hardware": "NVIDIA H200, GPU-1f0adce6-6456-ea8a-5f95-e9444450021c, 143771 MiB, 595.71.05",
+      "numpy": "2.2.6",
+      "cupy": "13.6.0",
+      "sample_list_sha256": "3904ff7d5c2bf168a6566e15829075bd96cca989ca8db1eb056d07228dd95bf8",
+      "manifest_sha256": "c7f8b08c1da6a278b9c38c283b1a3b2f7cff5418067132822b1dfcb55acca151",
+      "smoke": false,
+      "setup_seconds": 1.7122712400741875,
+      "score_seconds": 1829.813928335905,
+      "scope": "FP64 numerical reference amplitudes using frozen inplace_k3_fp64 plan."
+    },
+    {
+      "worker_id": 4,
+      "sample_count": 174,
+      "hardware": "NVIDIA H200, GPU-e5797f03-6678-17bc-cbfd-940a166d0287, 143771 MiB, 595.71.05",
+      "numpy": "2.2.6",
+      "cupy": "13.6.0",
+      "sample_list_sha256": "3904ff7d5c2bf168a6566e15829075bd96cca989ca8db1eb056d07228dd95bf8",
+      "manifest_sha256": "c7f8b08c1da6a278b9c38c283b1a3b2f7cff5418067132822b1dfcb55acca151",
+      "smoke": false,
+      "setup_seconds": 1.7950246520340443,
+      "score_seconds": 1829.8263079095632,
+      "scope": "FP64 numerical reference amplitudes using frozen inplace_k3_fp64 plan."
+    },
+    {
+      "worker_id": 5,
+      "sample_count": 173,
+      "hardware": "NVIDIA H200, GPU-eb6f15c2-7e2b-10d7-73d1-31b42e84854c, 143771 MiB, 595.71.05",
+      "numpy": "2.2.6",
+      "cupy": "13.6.0",
+      "sample_list_sha256": "3904ff7d5c2bf168a6566e15829075bd96cca989ca8db1eb056d07228dd95bf8",
+      "manifest_sha256": "c7f8b08c1da6a278b9c38c283b1a3b2f7cff5418067132822b1dfcb55acca151",
+      "smoke": false,
+      "setup_seconds": 1.7242281921207905,
+      "score_seconds": 1819.0236571189016,
+      "scope": "FP64 numerical reference amplitudes using frozen inplace_k3_fp64 plan."
+    },
+    {
+      "worker_id": 6,
+      "sample_count": 173,
+      "hardware": "NVIDIA H200, GPU-ef25e38e-b4ba-5d35-77ef-9723a57b5cdd, 143771 MiB, 595.71.05",
+      "numpy": "2.2.6",
+      "cupy": "13.6.0",
+      "sample_list_sha256": "3904ff7d5c2bf168a6566e15829075bd96cca989ca8db1eb056d07228dd95bf8",
+      "manifest_sha256": "c7f8b08c1da6a278b9c38c283b1a3b2f7cff5418067132822b1dfcb55acca151",
+      "smoke": false,
+      "setup_seconds": 1.7712609097361565,
+      "score_seconds": 1815.7940946202725,
+      "scope": "FP64 numerical reference amplitudes using frozen inplace_k3_fp64 plan."
+    },
+    {
+      "worker_id": 7,
+      "sample_count": 173,
+      "hardware": "NVIDIA H200, GPU-55393af7-538d-4a7c-5396-646087ed5acc, 143771 MiB, 595.71.05",
+      "numpy": "2.2.6",
+      "cupy": "13.6.0",
+      "sample_list_sha256": "3904ff7d5c2bf168a6566e15829075bd96cca989ca8db1eb056d07228dd95bf8",
+      "manifest_sha256": "c7f8b08c1da6a278b9c38c283b1a3b2f7cff5418067132822b1dfcb55acca151",
+      "smoke": false,
+      "setup_seconds": 1.9050278132781386,
+      "score_seconds": 1815.517030030489,
+      "scope": "FP64 numerical reference amplitudes using frozen inplace_k3_fp64 plan."
+    }
+  ],
+  "GPU_hours_scoring_process_sum": 4.052989961807616,
+  "max_worker_scoring_seconds": 1829.8263079095632,
+  "central_timing": {
+    "start_unix": 1794561519.9008968,
+    "end_unix": 1794563561.319337,
+    "central_monotonic_submit_to_all_logs_seconds": 2041.4184415312484,
+    "jobs": {
+      "1": "dcs245-fp64-1113-w1-21052498",
+      "0": "dcs245-fp64-1113-w0-21057488",
+      "3": "dcs245-fp64-1113-w3-19526260",
+      "2": "dcs245-fp64-1113-w2-10411529",
+      "4": "dcs245-fp64-1113-w4-37022994",
+      "5": "dcs245-fp64-1113-w5-44573982",
+      "6": "dcs245-fp64-1113-w6-56647074",
+      "7": "dcs245-fp64-1113-w7-63141288"
+    },
+    "terminal": {
+      "0": {
+        "state": "Succeeded",
+        "observed_elapsed": 1985.1088591413572,
+        "logs_returncode": 0
+      },
+      "1": {
+        "state": "Succeeded",
+        "observed_elapsed": 1987.877573407255,
+        "logs_returncode": 0
+      },
+      "3": {
+        "state": "Succeeded",
+        "observed_elapsed": 1992.1220429670066,
+        "logs_returncode": 0
+      },
+      "2": {
+        "state": "Succeeded",
+        "observed_elapsed": 2029.8410435607657,
+        "logs_returncode": 0
+      },
+      "4": {
+        "state": "Succeeded",
+        "observed_elapsed": 2033.1266763098538,
+        "logs_returncode": 0
+      },
+      "5": {
+        "state": "Succeeded",
+        "observed_elapsed": 2035.7114033140242,
+        "logs_returncode": 0
+      },
+      "6": {
+        "state": "Succeeded",
+        "observed_elapsed": 2038.7627631966025,
+        "logs_returncode": 0
+      },
+      "7": {
+        "state": "Succeeded",
+        "observed_elapsed": 2041.4182091671973,
+        "logs_returncode": 0
+      }
+    },
+    "submission_errors": [],
+    "scope": "Fullscore only: submissions, queue, FP64 scoring, logging, final collection to development host; not sampling runtime."
+  },
+  "scope": "complex128 numerical reference with frozen r1 full contraction plan, separate recomputation from FP32 generation. Same graph and core contraction family; not a separate algorithm or interval proof. Score validation costs must not be called sampling runtime.",
+  "hashes": {
+    "scoring_manifest": "c7f8b08c1da6a278b9c38c283b1a3b2f7cff5418067132822b1dfcb55acca151",
+    "r1_sample_list": "3904ff7d5c2bf168a6566e15829075bd96cca989ca8db1eb056d07228dd95bf8",
+    "ibm_csv": "e281e794dabd0f0c3ce40765fb22a17f7bf1ecd9c06bf68477b1b66de7ca79e9"
+  }
+}
